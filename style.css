@@ -9,3 +9,26 @@
 .fa-search {
 	color:blue;
 }
+
+/*I started styling the results div
+early because I did not want to go back and edit the html after the page is done*/
+.result {
+	width:600px;
+
+}
+.result  .url, .result  a, .result i, .result .date, .result .result-body {
+	display:inline;
+
+
+}
+.bold {
+	font-weight: bold;
+}
+.video-preview {
+	display: inline-block;
+	float:left;
+}
+.inside-wrapper {
+	display: inline-block;
+	float:right;
+}
