@@ -1,14 +1,10 @@
 * {
 	padding: 0;
 	margin:0;
+	font-family: arial,sans-serif;
+	font-size: small
 }
-.microphone-icon {
-	width:20px;
-	height:20px;
-}
-.fa-search {
-	color:blue;
-}
+
 
 /*I started styling the results div
 early because I did not want to go back and edit the html after the page is done*/
@@ -21,6 +17,7 @@ early because I did not want to go back and edit the html after the page is done
 
 
 }
+
 .bold {
 	font-weight: bold;
 }
@@ -70,5 +67,90 @@ table tr td div:hover {
 	cursor: pointer;
 }
 td {
-	text-align: center
+	text-align: center;
+}
+li {
+	list-style: none
+}
+/* started stying the header of the page */
+.top-part {
+	background-color: #fafafa;
+	border-bottom: 1px solid #ebebeb;
+	width:100%;
+}
+.logo img {
+	width:120px;
+	height:44px;
+	display: block;
+	float: left;
+	margin: 24px 0 0 13px;
+}
+.navigation {
+	
+	display:inline-block;
+	float: right;
+	margin: 35px 25px 0 0;
+
+}
+.navigation li {
+	display: inline;
+	margin: 8px;
+
+}
+.connect {
+	background-color: #4285f4;
+	padding: 7px 12px;
+	color: white;
+	font-weight: bold;
+	border-radius: 3px;
+	text-decoration: none
+}
+.connect:visited {
+	color: white;
+}
+
+.connect:hover {
+	text-decoration: none;
+}
+.more {
+	font-size: 17px;
+	color: #777;
+	vertical-align: middle;
+}
+.more:hover {
+	color: #333;
+}
+.search-box {
+	width:auto;
+	display: inline-block;
+	width: 50%;
+
+}
+.search-box li {
+	display: inline;
+}	
+
+.search-box ul {
+	display: inline;
+}
+input {
+	position: relative ;
+	margin: 20px 0 0 15px;
+	width: 630px;
+	height: 45px;
+	border: 1px solid #ebebeb;
+	box-shadow: 0 2px 2spx 1px #ccc;
+	padding: 0 15px;
+	font-size: 16px
+}
+.fa-keyboard {
+	font-size: 18px
+}
+.microphone-icon {
+	width: 24px;
+	height: 27px;
+}
+.fa-search {
+	color:#4285f4;
+	font-size: 20px;
 }
