@@ -32,3 +32,43 @@ early because I did not want to go back and edit the html after the page is done
 	display: inline-block;
 	float:right;
 }
+
+
+.G {
+    background: url("https://www.google.com//images/nav_logo242.png") no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+    height:45px;
+
+
+  
+}
+.o1, .o2, .o3, .o4, .o5, .o6, .o7, .o8, .o9, .o10 {
+	background: url("https://www.google.com//images/nav_logo242.png") no-repeat;
+    width: 20px;
+    height:30px;
+
+}
+.o1 {
+	background-position: -53px 0;
+}
+.o2, .o3, .o4, .o5, .o6, .o6, .o7, .o8, .o9, .o10 {
+	background-position: -74px 0;
+}
+.gle {
+	background: url("https://www.google.com//images/nav_logo242.png") no-repeat;
+	background-position: -96px 0;
+    width: 71px;
+    height:40px;
+    margin-top: 10px
+}
+.gleLink {
+	margin-bottom: : 10px;
+	position: relative;
+}
+table tr td div:hover {
+	cursor: pointer;
+}
+td {
+	text-align: center
+}
