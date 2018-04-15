@@ -77,6 +77,7 @@ li {
 	background-color: #fafafa;
 	border-bottom: 1px solid #ebebeb;
 	width:100%;
+	height:122px;
 }
 .logo img {
 	width:120px;
@@ -123,7 +124,8 @@ li {
 .search-box {
 	width:auto;
 	display: inline-block;
-	width: 50%;
+	width: 80%;
+
 
 }
 .search-box li {
@@ -133,24 +135,101 @@ li {
 .search-box ul {
 	display: inline;
 }
+
 input {
 	position: relative ;
 	margin: 20px 0 0 15px;
 	width: 630px;
 	height: 45px;
 	border: 1px solid #ebebeb;
-	box-shadow: 0 2px 2spx 1px #ccc;
+	box-shadow: 0 2px 5px 1px #ccc;
 	padding: 0 15px;
-	font-size: 16px
+	font-size: 16px;
+	z-index: 0;
 }
 .fa-keyboard {
-	font-size: 18px
+	font-size: 18px;
+	color:#666;
+}
+.fa-keyboard:hover {
+	color: #222;
 }
 .microphone-icon {
-	width: 24px;
-	height: 27px;
+	width: 20px;
+	height: 24px;
+	bottom:-5px;
+	position: relative;
 }
 .fa-search {
 	color:#4285f4;
-	font-size: 20px;
+	font-size: 17px;
+}
+.search-box-icons{
+	display: inline-block;
+	position: relative;
+	margin: 0 0 0 -120px;
+}
+.search-box-icons {
+	cursor: pointer;
+}
+.search-box-icons li {
+	margin: 0 8px;
+}
+.media {
+	margin: 28px 0 0 150px;
+
+}
+.media li {
+	display: inline;
+	margin: 0 2px;
+
+}
+
+.media ul li a {
+	height: 15px;
+    line-height: 15px;
+    padding-top: 28px;
+    color: #888!important;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 0 12px;
+    padding-bottom: 12px;
+
+}
+
+.media ul li a:visited {
+	color: #888;
+}
+.media ul li a:hover {
+	color: #222 !important;
+}
+.media ul li .selected {
+	border-bottom: 3px solid #1A73E8;
+    color: #1A73E8 !important;
+    font-weight: bold;
+}
+.media ul li .selected:hover {
+	color: #1a73e8;
+}
+.media-more {
+	margin: -15px 0 0 620px
+}
+.media-more li {
+	display: inline;	
+}
+.media-more ul li a {
+	height: 15px;
+    line-height: 15px;
+    padding-top: 28px;
+    color: #888!important;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 0 12px;
+    padding-bottom: 12px;
+}
+.media-more ul li a:visited {
+	color: #888;
+}
+.media-more ul li a:hover {
+	color: #222 !important;
 }
