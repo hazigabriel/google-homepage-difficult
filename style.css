@@ -57,7 +57,7 @@ early because I did not want to go back and edit the html after the page is done
 	background-position: -96px 0;
     width: 71px;
     height:40px;
-    margin-top: 10px
+    display: inline-block;
 }
 .gleLink {
 	margin-bottom: : 10px;
@@ -232,4 +232,119 @@ input {
 }
 .media-more ul li a:hover {
 	color: #222 !important;
+}
+/* results styling*/
+.resultsStats {
+	color: 808080;
+	padding: 15px 0 22px 167px;
+}
+.result {
+	margin: 0 0 25px 167px;
+}
+.result-title a {
+	font-size: 18px;
+    font-weight: normal;
+    color: #1a0dab;
+    padding: 0 0 1px 0;
+    display: block;
+    text-decoration: none;
+}
+.result-title a:hover {
+	text-decoration: underline;
+}
+.result-title a:visited {
+	color: #609
+}
+.results a {
+ color: #1a0dab;
+}
+.url {
+	color: #006621;
+	font-size: 14px
+}
+.fa-caret-down {
+	color: #006621;
+}
+.translate {
+	font-size: 14px;
+	display: block;
+	color:#DARKBLUE;
+	text-decoration: none;
+	line-height: 1.4
+}
+.translate:visited {
+	color: #s609;
+}
+.translate:hover {
+	text-decoration: underline;
+}
+.date {
+	color: #808080;
+}
+.result-body {
+	color: #545454;
+	line-height: 1.4;
+}
+.video-preview img {
+
+	padding: 2px 5px 0 0 ;
+}
+.video-result .url {
+	color: #006621;
+	font-size: 14px;
+	line-height: 1.4
+}
+.video-result .date {
+	color: #808080;
+	line-height: 1.4
+}
+.related {
+	margin: 0 0 25px 167px;
+}
+.related h3  {
+	font-size:18px;
+	color:#222;
+	font-weight: normal;
+	padding: 10px 0 15px 0;
+}
+.related  a {
+	line-height: 2;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1a0dab;
+}
+.related a:visited {
+	color: #609;
+}
+.related a:hover {
+	text-decoration: underline;
+}
+.left-suggestions {
+	display: inline-block;
+
+}
+.right-suggestions {
+	display: inline-block;
+	padding-left: 25px;
+}
+.page-listing {
+	display: block;
+	margin: 0 0 0 300px;
+}
+.page-listing a {
+	line-height: 2;
+    font-size: 14px;
+   
+    text-decoration: none;
+    color: #1a0dab;
+}
+.page-listing a:visited {
+	color: #609;
+}
+.page-listing a:hover {
+	text-decoration: underline;
+}
+#page-active {
+	color: #222;
 }
